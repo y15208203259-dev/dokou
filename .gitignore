@@ -1,0 +1,19 @@
+# 默认排除全部文件，仅开放明确审核的文件。
+/*
+!/.gitignore
+!/README.md
+!/scripts/
+/scripts/*
+!/scripts/sync_github.py
+# 个人数据、开发产物和安装包不进入 Git 历史。
+**/data/
+**/.multi_ai_workspace/
+**/.artifacts/
+**/.dsh*/
+**/__pycache__/
+**/node_modules/
+*.sqlite*
+*.db
+*.exe
+*.zip
+.env*
